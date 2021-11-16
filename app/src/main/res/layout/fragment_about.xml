@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/lavender"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/text_heading"
+        style="@style/ThemeAbout"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Описание">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Приложение Магический Шар (Magic Ball) представляет собой шуточную возможность узнать свое будущее с помощью специального магического приспособления. Гадание на шаре используется во многих книгах и фильмах о волшебстве и магии, а теперь можно приобщиться к этой практике с помощью мобильного приложения.">
+
+    </TextView>
+</LinearLayout>
